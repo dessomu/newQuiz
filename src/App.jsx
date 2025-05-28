@@ -47,7 +47,7 @@ const QuizApp = () => {
               </div>
               <h1 className="main-title">Quick Quiz</h1>
               <p className="subtitle">
-                Test your knowledge using AI-powered questions
+                Test your knowledge
               </p>
             </div>
 
@@ -88,7 +88,7 @@ const QuizApp = () => {
 
               <button onClick={handleStartQuiz} className="start-button">
                 <span className="button-icon">⚡</span>
-                Generate Quiz
+                Test My Knowledge
               </button>
             </div>
 
