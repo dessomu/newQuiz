@@ -179,7 +179,7 @@ const QuizCard = () => {
                 onClick={handleSubmit}
                 disabled={selectedAnswer === null}
               >
-                <span>📝</span>
+                
                 Confirm Answer
               </button>
             ) : (
