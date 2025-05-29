@@ -61,30 +61,10 @@ const QuizApp = () => {
                   type="text"
                   value={topic}
                   onChange={(e) => setTopic(e.target.value)}
-                  placeholder="Diabetes, Disney, or Democracy - it's your call!"
+                  placeholder="Diabetes, Disney, or Democracy - what's on your mind!"
                   className="topic-input"
                 />
               </div>
-{/* 
-              <div className="input-group">
-                <label htmlFor="questions" className="input-label">
-                  Number of Questions:{" "}
-                  <span className="question-count">{numQuestions}</span>
-                </label>
-                <input
-                  id="questions"
-                  type="range"
-                  min="3"
-                  max="20"
-                  value={numQuestions}
-                  onChange={(e) => setNumQuestions(parseInt(e.target.value))}
-                  className="slider"
-                />
-                <div className="slider-labels">
-                  <span>3</span>
-                  <span>20</span>
-                </div>
-              </div> */}
 
               <button onClick={handleStartQuiz} className="start-button">
                 <span className="button-icon">⚡</span>
