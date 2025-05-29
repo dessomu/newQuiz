@@ -111,7 +111,7 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
     <>
       <div className="completion-section">
         <div className="completion-icon">{getCelebrationEmoji(percentage)}</div>
-        <h2 className="completion-title">Challange Completed!</h2>
+        <h2 className="completion-title">Another Step Forward</h2>
         <h3>{topic}</h3>
         <AnimatedCircle percentage={percentage} />
         <div className="score-info">
@@ -160,7 +160,7 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
           </div>
         </div>
         <button onClick={resetQuiz} className="restart-button">
-          Bring on the Next One!
+         Challenge Me Again
         </button>
       </div>
     </>
