@@ -111,13 +111,13 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
     <>
       <div className="completion-section">
         <div className="completion-icon">{getCelebrationEmoji(percentage)}</div>
-        <h2 className="completion-title">Quiz Completed!</h2>
+        <h2 className="completion-title">Challange Completed!</h2>
         <h3>{topic}</h3>
         <AnimatedCircle percentage={percentage} />
         <div className="score-info">
           <p className="score-text">
-            You answered <strong>{correctAnswers}</strong> out of{" "}
-            <strong>{totalQuestions}</strong> questions correctly
+            <strong style={{color:"#10b981"}}>{correctAnswers}</strong> right  {correctAnswers>1 ? "attempts":"attempt"} out of{" "}
+            <strong>{totalQuestions}</strong>.
           </p>
           <p className="encouragement">{getEncouragementMessage(percentage)}</p>
         </div>
@@ -144,7 +144,7 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
                 : percentage >= 60
                 ? "Good"
                 : "Developing"}{" "}
-              understanding demonstrated
+              understanding
             </p>
           </div>
 
@@ -160,7 +160,7 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
           </div>
         </div>
         <button onClick={resetQuiz} className="restart-button">
-          Take Quiz Again
+          Bring on the Next One!
         </button>
       </div>
     </>
