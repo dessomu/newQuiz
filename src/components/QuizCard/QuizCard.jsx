@@ -180,12 +180,12 @@ const QuizCard = () => {
                 disabled={selectedAnswer === null}
               >
                 <span>📝</span>
-                Submit Answer
+                Easy Peasy
               </button>
             ) : (
               <button className="next-button" onClick={handleNext}>
                 <span>{currentQuestion < totalQuestions - 1 ? '➡️' : '🏁'}</span>
-                {currentQuestion < totalQuestions - 1 ? 'Next Question' : 'Finish Quiz'}
+                {currentQuestion < totalQuestions - 1 ? 'Give Me More!' : 'Wrap It Up!'}
               </button>
             )}
           </div>
