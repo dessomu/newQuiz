@@ -180,7 +180,7 @@ const QuizCard = () => {
                 disabled={selectedAnswer === null}
               >
                 <span>📝</span>
-                Easy Peasy
+                Confirm Answer
               </button>
             ) : (
               <button className="next-button" onClick={handleNext}>
