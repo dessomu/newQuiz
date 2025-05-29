@@ -45,27 +45,27 @@ const QuizApp = () => {
               <div className="icon-wrapper">
                 <div className="brain-icon">🧠</div>
               </div>
-              <h1 className="main-title">Quick Quiz</h1>
+              <h1 className="main-title">Hey Geek</h1>
               <p className="subtitle">
-                Test your knowledge
+                Let's challange your curious mind.
               </p>
             </div>
 
             <div className="form-section">
               <div className="input-group">
                 <label htmlFor="topic" className="input-label">
-                  Quiz Topic
+                  Topic: {""}
                 </label>
                 <input
                   id="topic"
                   type="text"
                   value={topic}
                   onChange={(e) => setTopic(e.target.value)}
-                  placeholder="Enter any topic (e.g., History, Science, Sports...)"
+                  placeholder="Diabetes, Disney, or Democracy - it's your call!"
                   className="topic-input"
                 />
               </div>
-
+{/* 
               <div className="input-group">
                 <label htmlFor="questions" className="input-label">
                   Number of Questions:{" "}
@@ -84,18 +84,19 @@ const QuizApp = () => {
                   <span>3</span>
                   <span>20</span>
                 </div>
-              </div>
+              </div> */}
 
               <button onClick={handleStartQuiz} className="start-button">
                 <span className="button-icon">⚡</span>
-                Test My Knowledge
+                Let's Geek Out!
               </button>
             </div>
 
             <div className="features-section">
+              <p className="features-label">Geeky Goodness</p>
               <div className="feature">
                 <div className="feature-icon">🎯</div>
-                <span>Personalized</span>
+                <span>Context-Aware</span>
               </div>
               <div className="feature">
                 <div className="feature-icon">🚀</div>
@@ -103,7 +104,7 @@ const QuizApp = () => {
               </div>
               <div className="feature">
                 <div className="feature-icon">📊</div>
-                <span>Adaptive</span>
+                <span>Insightful</span>
               </div>
             </div>
           </div>
