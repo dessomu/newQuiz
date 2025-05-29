@@ -358,3 +358,8 @@
 
    
   }
+  @media (max-width: 360px){
+    .features-section {
+      flex-direction: column;
+    }
+  }
