@@ -45,7 +45,7 @@ const QuizApp = () => {
               <div className="icon-wrapper">
                 <div className="brain-icon">🧠</div>
               </div>
-              <h1 className="main-title">Hey Geek</h1>
+              <h1 className="main-title">Welcome, Scholar</h1>
               <p className="subtitle">
                 Let's challange your curious mind.
               </p>
@@ -88,12 +88,12 @@ const QuizApp = () => {
 
               <button onClick={handleStartQuiz} className="start-button">
                 <span className="button-icon">⚡</span>
-                Let's Geek Out!
+                Test My Knowledge
               </button>
             </div>
 
             <div className="features-section">
-              <p className="features-label">Geeky Goodness</p>
+{/*               <p className="features-label">Geeky Goodness</p> */}
               <div className="feature">
                 <div className="feature-icon">🎯</div>
                 <span>Context-Aware</span>
