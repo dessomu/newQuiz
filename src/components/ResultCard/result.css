@@ -190,7 +190,7 @@
       margin-left: 3px;
     }
     .score-text {
-      font-size: 1rem;
+      font-size: 0.95rem;
     }
     .encouragement {
       font-size: 0.9rem;
@@ -200,6 +200,6 @@
     }
     .restart-button {
       font-size: 0.9rem;
-      padding: 8px 16px;
+      padding: 10px 16px;
     }
   }
