@@ -116,8 +116,8 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
         <AnimatedCircle percentage={percentage} />
         <div className="score-info">
           <p className="score-text">
-            <strong style={{color:"#10b981"}}>{correctAnswers}</strong> right  {correctAnswers>1 ? "attempts":"attempt"} out of{" "}
-            <strong>{totalQuestions}</strong>.
+             You got <strong style={{color:"#10b981"}}>{correctAnswers}</strong>/
+            <strong>{totalQuestions}</strong> correct.
           </p>
           <p className="encouragement">{getEncouragementMessage(percentage)}</p>
         </div>
@@ -138,14 +138,14 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
                 <span>Wrong: {totalQuestions - correctAnswers}</span>
               </div>
             </div>
-            <p className="performance-text">
+{/*             <p className="performance-text">
               {percentage >= 80
                 ? "Excellent"
                 : percentage >= 60
                 ? "Good"
                 : "Developing"}{" "}
               understanding
-            </p>
+            </p> */}
           </div>
 
           {/* Analysis Section */}
