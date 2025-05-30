@@ -184,8 +184,8 @@ const QuizCard = () => {
               </button>
             ) : (
               <button className="next-button" onClick={handleNext}>
-                <span>{currentQuestion < totalQuestions - 1 ? '➡️' : '🏁'}</span>
-                {currentQuestion < totalQuestions - 1 ? 'Next, Please' : 'Show My Score'}
+                <span>{currentQuestion < totalQuestions - 1 ? '➡️' : ''}</span>
+                {currentQuestion < totalQuestions - 1 ? 'Next, Please' : 'Score Unlocked'}
               </button>
             )}
           </div>
