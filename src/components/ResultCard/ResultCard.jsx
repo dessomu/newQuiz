@@ -123,7 +123,7 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
         </div>
         <div className="sections-container">
           {/* Overview Section */}
-          <div className="section">
+{/*           <div className="section">
             <h3 className="section-title">
               <span className="section-icon">📊</span>
               Overview
@@ -138,15 +138,15 @@ const ResultCard = ({ correctAnswers, totalQuestions, resetQuiz }) => {
                 <span>Wrong: {totalQuestions - correctAnswers}</span>
               </div>
             </div>
-{/*             <p className="performance-text">
+            <p className="performance-text">
               {percentage >= 80
                 ? "Excellent"
                 : percentage >= 60
                 ? "Good"
                 : "Developing"}{" "}
               understanding
-            </p> */}
-          </div>
+            </p>
+          </div> */}
 
           {/* Analysis Section */}
           <div className="section">
